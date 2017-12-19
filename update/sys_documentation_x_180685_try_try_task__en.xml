@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Try Task" language="en" table="x_180685_try_try_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Try Task</label>
+            <language>en</language>
+            <name>x_180685_try_try_task</name>
+            <plural>Try Tasks</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-15 07:40:06</sys_created_on>
+            <sys_id>748f8269db8b03000256f91ebf96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Try Task</sys_name>
+            <sys_package display_value="Try" source="x_180685_try">e5c93724db0f03000256f91ebf9619a2</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Try">e5c93724db0f03000256f91ebf9619a2</sys_scope>
+            <sys_update_name>sys_documentation_x_180685_try_try_task__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-15 07:40:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Try</name>
+        <order/>
+        <roles>x_180685_try.try_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-15 07:23:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6bbb8ea5db8b03000256f91ebf9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Try</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Try" source="x_180685_try">e5c93724db0f03000256f91ebf9619a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Try">e5c93724db0f03000256f91ebf9619a2</sys_scope>
+        <sys_update_name>sys_ui_application_6bbb8ea5db8b03000256f91ebf9619fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-15 07:23:39</sys_updated_on>
+    </sys_ui_application>
+</record_update>

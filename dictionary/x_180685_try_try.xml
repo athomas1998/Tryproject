@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Try" max_length="40" name="x_180685_try_try" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Number" max_length="120" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="sys_created_by" dependent_on_field="sys_created_by" label="Requested for" mandatory="true" max_length="60" name="requested_for" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" max_length="160" name="requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Facilities" label="Request type" mandatory="true" max_length="120" name="request_type" type="string">
+            <choice>
+                <element label="Facilities" sequence="0" value="Facilities"/>
+                <element label="Human Resources" sequence="5" value="Human Resources"/>
+                <element label="Legal" sequence="6" value="Legal"/>
+                <element label="Other" sequence="7" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" choice_field="request_type" choice_table="x_180685_try_try" default="Facilities" label="What needed" mandatory="true" max_length="120" name="what_needed" type="string">
+            <choice>
+                <element label="Facilities" sequence="0" value="Facilities"/>
+                <element label="Human Resources" sequence="1" value="Human Resources"/>
+                <element label="Legal" sequence="2" value="Legal"/>
+                <element label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element label="WhenNeededDate" max_length="40" name="when_needed_date" type="glide_date"/>
+    </element>
+</database>

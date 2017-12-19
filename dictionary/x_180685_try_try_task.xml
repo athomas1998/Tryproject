@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Try Task" max_length="40" name="x_180685_try_try_task" sizeclass="303" type="collection"/>
+</database>

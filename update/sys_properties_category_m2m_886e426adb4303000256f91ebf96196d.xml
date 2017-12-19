@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Try Properties">288c8ee6db4303000256f91ebf961981</category>
+        <order>100</order>
+        <property display_value="x_180685_try.advancedNoticeDays" name="x_180685_try.advancedNoticeDays">e7ddc226db4303000256f91ebf9619f7</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-18 10:09:03</sys_created_on>
+        <sys_id>886e426adb4303000256f91ebf96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_180685_try.advancedNoticeDays.Try Properties</sys_name>
+        <sys_package display_value="Try" source="x_180685_try">e5c93724db0f03000256f91ebf9619a2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Try">e5c93724db0f03000256f91ebf9619a2</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_886e426adb4303000256f91ebf96196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-18 10:13:39</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
